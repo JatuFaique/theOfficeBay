@@ -1,0 +1,10 @@
+@import url(/css/home.css);
+
+.side-bar {
+  max-width: 16rem;
+  position: sticky;
+  margin: 2rem 1rem;
+  top: 5rem;
+  height: 80vh;
+  border: 1px solid red;
+}
