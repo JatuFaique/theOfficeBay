@@ -1,0 +1,36 @@
+@import url(/css/home.css);
+
+.section-cart {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  padding: 1rem 16rem;
+}
+
+.cart-section-summary {
+  padding: 1rem;
+  max-width: 16rem;
+  position: sticky;
+  top: 5rem;
+  height: 80vh;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.cart-list-items {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+/* 
+.cart-item-price {
+  line-height: 2rem;
+} */
+
+.card {
+  background-color: #ffffff;
+  border-radius: 0;
+  border: 1px solid var(--fulvous-light);
+}
