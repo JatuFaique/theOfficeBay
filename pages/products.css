@@ -1,4 +1,20 @@
 @import url(/css/home.css);
+/* 
+--fulvous: rgb(217, 126, 28);
+  --fulvous-light: rgb(217, 126, 28);
+  --border-danger: rgb(216, 43, 43);
+  --bright-navy-blue: hsla(211, 77%, 48%, 1);
+  --hookers-green: hsla(152, 21%, 36%, 1);
+  --border-succes: rgb(73, 216, 149);
+  --mint-cream: hsla(120, 100%, 98%, 1);
+  --black-chocolate: hsla(57, 100%, 4%, 1);  */
+
+.container-side-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-top: 5rem;
+}
 
 .side-bar {
   max-width: 16rem;
@@ -6,5 +22,41 @@
   margin: 2rem 1rem;
   top: 5rem;
   height: 80vh;
-  border: 1px solid red;
+  /* border: 1px solid red; */
+}
+
+.filter-wrapper {
+  margin: auto;
+}
+
+.box .slider {
+  width: 100%;
+}
+
+.box .list-heading {
+  padding: 1rem;
+}
+
+.slider input::-moz-range-thumb {
+  height: 10px;
+  width: 10px;
+  border: 1px solid var(--fulvous-light);
+  -webkit-appearance: none;
+}
+
+.slider input::-moz-range-thumb {
+  height: 10px;
+  border-radius: 10px;
+  background: var(--fulvous);
+}
+
+.checkbox-list {
+  width: 100%;
+}
+
+.section-products {
+  margin-left: 20rem;
+  margin-top: 5rem;
+  /* border: 1px solid black; */
+  max-width: 80%;
 }
