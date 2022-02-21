@@ -1,0 +1,20 @@
+@import url(/css/home.css);
+
+.auth-container {
+  border: 2px solid red;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+}
+
+.auth-box {
+  display: flex;
+  flex-direction: column;
+  transform: translate(-2%, -50%);
+  gap: 1rem;
+  padding: 2rem;
+  border-radius: 25px;
+}
