@@ -12,8 +12,8 @@
       rel="stylesheet"
       href="https://the-office-ui.netlify.app/components/components.css"
     />
-    <link rel="stylesheet" href="./wishlist.css" />
-    <title>wishlist</title>
+    <link rel="stylesheet" href="./cart.css" />
+    <title>Cart</title>
   </head>
   <body>
     <nav class="top-nav center-align">
@@ -29,26 +29,25 @@
         </div>
       </div>
       <div class="nav-icons">
-        <a href="/pages/authentication.html">
+        <a href="/pages/authentication/authentication.html">
           <i class="fas fa-user"></i>
         </a>
-        <a href="/pages/wishlist.html">
+        <a href="/pages/wishlist/wishlist.html">
           <i class="fas fa-heart"></i>
         </a>
-        <a href="/pages/cart.html">
+        <a href="/pages/cart/cart.html">
           <i class="fas fa-shopping-cart"></i>
         </a>
       </div>
     </nav>
     <main>
-      <div class="section-wishlist">
-        <div class="text-xl bold">My WishList</div>
+      <div class="section-cart">
         <div class="cart-section-items">
-          <div class="card card-vertical">
-            <div class="content-vertical">
+          <div class="card card-horizontal">
+            <div class="content-horizontal">
               <img
                 class="card-img"
-                src="https://picsum.photos/400"
+                src="https://picsum.photos/300"
                 alt="loading"
               />
 
@@ -70,11 +69,11 @@
             </div>
             <button class="btn-secd">Move to wishlist</button>
           </div>
-          <div class="card card-vertical">
-            <div class="content-vertical">
+          <div class="card card-horizontal">
+            <div class="content-horizontal">
               <img
                 class="card-img"
-                src="https://picsum.photos/400"
+                src="https://picsum.photos/300"
                 alt="loading"
               />
 
@@ -96,11 +95,11 @@
             </div>
             <button class="btn-secd">Move to wishlist</button>
           </div>
-          <div class="card card-vertical">
-            <div class="content-vertical">
+          <div class="card card-horizontal">
+            <div class="content-horizontal">
               <img
                 class="card-img"
-                src="https://picsum.photos/400"
+                src="https://picsum.photos/300"
                 alt="loading"
               />
 
@@ -120,8 +119,34 @@
               <span class="text-sm bold">1</span>
               <button class="btn-prim">-</button>
             </div>
-            <button class="btn-secd">Move to wishlist</button>
+            <button class="btn-secd">Move to Wishlist</button>
           </div>
+        </div>
+        <div class="cart-section-summary">
+          <div class="text-m">Price Details</div>
+          <hr />
+          <div class="cart-list-items">
+            <div class="cart-item text-m text-grey">Item 1</div>
+            <div class="cart-item-price text-sm bold">$45</div>
+          </div>
+          <div class="cart-list-items">
+            <div class="cart-item text-m text-grey">Item 1</div>
+            <div class="cart-item-price text-sm bold">$45</div>
+          </div>
+          <div class="cart-list-items">
+            <div class="cart-item text-m text-grey">Item 1</div>
+            <div class="cart-item-price text-sm bold">$45</div>
+          </div>
+          <div class="cart-list-items">
+            <div class="cart-item text-m text-grey">Item 1</div>
+            <div class="cart-item-price text-sm bold">$45</div>
+          </div>
+          <hr />
+          <div class="cart-list-items">
+            <div class="text-l bold">Total</div>
+            <div class="text-l">$999</div>
+          </div>
+          <button class="btn-prim">Proceed to checkout</button>
         </div>
       </div>
     </main>
